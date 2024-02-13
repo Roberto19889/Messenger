@@ -1,0 +1,179 @@
+* html,body{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}  
+  
+
+p{
+  font-size: 15px;
+  color: white;
+  font-family: calibri;
+  font-weight: 500;
+  display: flex;
+  align-self: center;
+  word-break: break-word;
+}
+
+
+.font{
+  font-size: 16px;
+  color:black;
+  font-weight: 600;
+}
+
+
+.svg-icon {
+  width: 2em;
+  rotate: 270deg;;
+ }    
+ 
+  
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+ } 
+  
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+  }
+
+  
+/***Header***/
+
+
+header{
+  width: 336px;
+  height: 48px;
+  background-color: whitesmoke;
+  display: flex;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+
+main{
+  width: 336px;
+  height: 352px;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.main-text {
+ display: flex;
+ flex-direction: column;
+} 
+
+
+figure{
+  padding: 0;
+  margin: 0;
+}    
+
+
+  .header-img img{
+  border-radius: 50%;
+  width: 2.4rem;
+  display: flex;
+  padding: 0.3rem 0.5rem;
+}    
+    
+
+svg{
+position: relative;
+}
+
+
+.X {
+  left: 4.8rem;
+}
+
+
+.minus{
+  left: 6.6rem;
+  color: #4691f6;
+  height: 3rem; 
+}
+
+
+.arrow{
+  right: 7rem;
+  width: 1.3rem;
+}
+
+
+/*MAIN***/
+
+
+main{
+  background-color: white;
+}
+
+
+.chat{
+  background-color: blue;
+  padding: 0.6rem 0.6rem;
+  display:flex;
+  border-start-start-radius: 1rem;
+  border-start-end-radius: 1rem;
+  max-width: 50%;
+  align-items:center;
+  align-self: flex-end;
+  margin-right: 0.5rem; 
+}
+
+
+.time{
+  flex-direction: column;
+  color: black;
+  opacity: 0.6;
+  position: relative;
+  padding-top: 6.5rem;
+  text-align: center;
+  top: 1rem;
+  
+  
+  
+  
+}
+
+.chat-down{
+  border-radius: 5rem;
+  justify-content: center;
+  padding: 0.6rem 0.6rem;
+}
+
+
+footer{
+  display: flex;
+  height: 48px;
+  width: 336px;
+  background-color: whitesmoke;
+}
+
+
+.textarea{
+  margin: 2px 10px;
+  border: none;
+  width: 112px;
+}
+
+
+.rotate{
+  rotate: 0.8deg;
+  padding: 0.2rem;
+}
